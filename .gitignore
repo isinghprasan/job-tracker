@@ -1,0 +1,9 @@
+# Environment Variables
+.env
+
+# Go binaries (backend)
+*.exe
+*.out
+
+# React (frontend)
+node_modules/
