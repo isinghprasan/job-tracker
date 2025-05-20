@@ -9,6 +9,8 @@ import (
 
 func main() {
 	config.LoadEnv()
+	config.ConnectToDB()
+	defer config.DB.Close()
 
 	r := routes.SetupRouter()
 
