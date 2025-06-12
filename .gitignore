@@ -4,6 +4,7 @@
 # Go binaries (backend)
 *.exe
 *.out
+backend/bin/
 
 # React (frontend)
 node_modules/
